@@ -1,0 +1,178 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    background-color: #318189;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+h2{
+    background-color: #318189;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(185, 185, 185);
+}
+
+.Biografia{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background: #6379b4;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    position: relative;
+    transition: .3s ease all;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.Biografia span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+    
+}
+.Biografia::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(90, 158, 185);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+.Biografia:hover::after{
+    top:0
+}
+nav ul{
+    background-color: #B3C0C3;
+    width: 100%;
+    list-style-type: none;
+    display: inline-flex ;
+    justify-content: center;
+}
+
+
+.Video{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background: #6379b4;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    position: relative;
+    transition: .3s ease all;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.Video span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+.Video::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(90, 158, 185);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+.Video:hover::after{
+    top:0
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav li{
+    border: 1px ;
+    padding: 15px;
+}
+nav li:hover{
+    background-color: #318189;
+    
+}
+nav a{
+    text-decoration: none;
+    color: rgb(3, 3, 5);
+    width: 150px;
+}
+.imagen{
+    padding: 0%;
+    margin: 0%;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+
+}
+footer {
+    background-color: #318189;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.img{
+    width: 300px;
+}
+.centrado {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+tr td{
+    
+    justify-content: center;
+    
+}
+#contenido-is{
+    margin: 25px;
+
+}
+#texto1{
+    background-color: rgb(186, 160, 229);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    text-align: center;
+    padding: 10px;
+}
+#texto2{
+    background-color: rgb(186, 160, 229);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
